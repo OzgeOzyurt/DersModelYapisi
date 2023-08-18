@@ -8,8 +8,8 @@ namespace DersModelYapisi.Controllers
     {
         public IActionResult Index()
         {
-            var product1 = new Product { Id = 1, Name = "Kamera", Price = 1400 };
-            var product2 = new Product { Id = 2, Name = "Fotoğraf Makinesi", Price = 1500 };
+            var product1 = new Product { Id = 1, Name = "Camera", Price = 1400 };
+            var product2 = new Product { Id = 2, Name = "Closeup Lens", Price = 1500 };
             var product3 = new Product { Id = 3, Name = "Tripod", Price = 400 };
 
             var cartProduct1 = new CartProduct { Product = product1, Quantity = 5, Id = 1, Price = 1400 };
